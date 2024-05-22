@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/arbutus"
+        android:shadowColor="#020202"
+        android:text="@string/question_placeholder"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answerButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionTextView"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40sp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background"
+        android:backgroundTint="#AFD7DC"
+        android:fontFamily="@font/bungee_inline"
+        android:paddingStart="32dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="32dp"
+        android:paddingBottom="10dp"
+        android:shadowColor="#050505"
+        android:text="@string/answer_1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answerButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerButton1"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/bungee_inline"
+        android:paddingStart="32dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="32dp"
+        android:paddingBottom="10dp"
+        android:shadowColor="#050505"
+        android:text="@string/answer_2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answerButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerButton2"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/bungee_inline"
+        android:paddingStart="32dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="32dp"
+        android:paddingBottom="10dp"
+        android:shadowColor="#050505"
+        android:text="@string/answer_3"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answerButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerButton3"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/bungee_inline"
+        android:paddingStart="32dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="32dp"
+        android:paddingBottom="10dp"
+        android:shadowColor="#050505"
+        android:text="@string/answer_4"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/adamina"
+        android:text="Time: 60 seconds"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="213dp"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/questionmark" />
+
+    <TextView
+        android:id="@+id/copyrightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="Copyright © 2024 Math Mastermind. All rights reserved." />
+
+</RelativeLayout>

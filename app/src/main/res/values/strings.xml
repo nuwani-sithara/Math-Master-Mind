@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Math Mastermind</string>
+    <string name="question_placeholder">Question Placeholder</string>
+    <string name="answer_1">Answer 1</string>
+    <string name="answer_2">Answer 2</string>
+    <string name="answer_3">Answer 3</string>
+    <string name="answer_4">Answer 4</string>
+    <string name="correct_answer_message">Correct Answer!</string>
+    <string name="incorrect_answer_message">Incorrect Answer. Try Again!</string>
+</resources>
